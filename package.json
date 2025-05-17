@@ -1,0 +1,40 @@
+{
+  "name": "sickfix",
+  "version": "1.0.0",
+  "description": "Fixes your sickness of all kind - get an appointment now",
+  "homepage": "https://github.com/ankit-3131/SickFix#readme",
+  "bugs": {
+    "url": "https://github.com/ankit-3131/SickFix/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankit-3131/SickFix.git"
+  },
+  "license": "ISC",
+  "author": "Ankit Kumar",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.6",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.10.1",
+    "resend": "^4.5.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "keywords": [
+    "noworry"
+  ]
+}
